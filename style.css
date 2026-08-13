@@ -110,11 +110,11 @@ nav {
 
 .portfolio-media {
     width: 100%;
-    height: 400px;
-    object-fit: cover; 
+    aspect-ratio: 9 / 16; 
+    object-fit: contain; 
     border-radius: 4px;
     margin-bottom: 1rem;
-    background-color: #222;
+    background-color: #000; 
 }
 
 .placeholder {
@@ -157,4 +157,20 @@ footer p {
 .cta-button.large {
     font-size: 1.2rem;
     padding: 1rem 2.5rem;
+}
+
+.contact-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap; /* Keeps them neat on small phone screens */
+}
+
+.cta-button.whatsapp {
+    background-color: #25D366; /* Official WhatsApp Green */
+    color: #ffffff !important;
+}
+
+.cta-button.whatsapp:hover {
+    background-color: #1ebc5a;
 }
