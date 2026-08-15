@@ -35,7 +35,7 @@ nav {
 }
 
 .nav-logo-img {
-    height: 40px; /* Adjust this number if you want the logo bigger or smaller */
+    height: 40px; 
     width: auto;
     object-fit: contain;
 }
