@@ -297,4 +297,9 @@ footer h2 {
         width: 100%; 
         display: block;
     }
+
+    .desktop-only {
+        display: none; /* This magically hides the word "PRODUCTIONS" only on phones */
+    }
+
 }
